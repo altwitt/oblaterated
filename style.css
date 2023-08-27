@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Archivo Black", sans-serif;
+  background-color: black;
+}
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: flex-end;
+} */
+
+a,
+img {
+  text-align: left;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/* a:hover {
+  background: rgba(24, 22, 22, 0.5);
+  color: rgb(104, 228, 228);
+  border-color: rgb(7, 6, 6);
+} */
+
+.nav-item {
+  background: rgba(0, 0, 0, 0.2);
+}
+.nav-item a {
+  margin: 20px 20px;
+  font-size: 24px;
+  color: rgb(95 95 95);
+}
+.nav-item a:hover {
+}
+
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  padding: 15px 5px;
+  margin: 15px 5px;
+}
+
+li {
+  padding: 20 10;
+}
+
+li a:hover {
+  border: 5px double white;
+  margin: 35px 35px;
+  font-size: 30px;
+  color: white;
+}
