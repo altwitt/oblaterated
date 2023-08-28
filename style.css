@@ -13,6 +13,33 @@ body {
   align-content: flex-end;
 } */
 
+main {
+  height: 100vh;
+}
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  
+}
+
+#title {
+  font-weight: 300;
+  font-size: 4em;
+}
+
+#subtitle {
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "Style Script", cursive;
+  color: rgb(204, 202, 83);
+  font-size: 2.5em;
+  bottom: 200px;
+
+
+  
+}
 a,
 img {
   text-align: left;
@@ -20,12 +47,19 @@ img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+#banner {
+  position: absolute;
+  bottom: 0;
+}
 /* a:hover {
   background: rgba(24, 22, 22, 0.5);
   color: rgb(104, 228, 228);
   border-color: rgb(7, 6, 6);
 } */
-
+.nav-menu {
+display: inline-block;
+}
 .nav-item {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -54,7 +88,7 @@ li {
 
 li a:hover {
   border: 5px double white;
-  margin: 35px 35px;
+  margin: 35px 0px;
   font-size: 30px;
   color: white;
 }
